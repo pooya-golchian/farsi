@@ -19,10 +19,10 @@ image:
 * **ساخت و راه اندازی وبلاگ عکس پرینت با دروپال و ادمین سرور لینوکس** [blog.axprint.com](http://blog.axprint.com)
 * **طراحی مجدد وب سایت که هنوز در جریان هست** [axprint.com](http://axprint.com)
 * **ساخت لندینگ پیج ها و کمپین های عکس پرینت**
-    - [axprint.com/landing/loveday94/](http://axprint.com/landing/loveday94)  
-    - [axprint.com/landing/pishgaman/](http://axprint.com/landing/pishgaman)
-    - [axprint.com/landing/coldseason/](http://axprint.com/landing/coldseason)
-    - [axprint.com/landing/coldseason/](http://axprint.com/landing/fetr95)
+    - [axprint.com/landing/loveday94](http://axprint.com/landing/loveday94)  
+    - [axprint.com/landing/pishgaman](http://axprint.com/landing/pishgaman)
+    - [axprint.com/landing/coldseason](http://axprint.com/landing/coldseason)
+    - [axprint.com/landing/fetr95](http://axprint.com/landing/fetr95)
 
 # شرکت مهندسی نرم افزار رایورز
 برنامه نویس دروپال و طراح و گرافیست وب [Rayvarz Software Engineering Company](http://rayvarz.com) - به مدت یکسال.
