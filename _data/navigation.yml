@@ -1,0 +1,20 @@
+# Site navigation links
+- title: جستجو
+  url: /search/
+
+- title: درباره من
+  url: /about/
+
+- title: پروژه ها
+  url: /projects/
+
+- title: مقاله ها
+  url: /articles/
+
+- title: وبلاگ
+  url: /blog/
+
+
+
+#- title: Pooya Golchian
+#  url: http://pooyagolchian.ir

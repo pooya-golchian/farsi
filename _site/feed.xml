@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">پویا گلچیان</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2016-07-08T12:47:06+04:30</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>پویا گلچیان</name>
+  <uri>http://localhost:4000/</uri>
+  <email>pooya.golchian@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[سلام دنیا]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/hello-world/" />
+  <id>http://localhost:4000/blog/hello-world</id>
+  <updated>2016-07-07T00:00:00-00:00</updated>
+  <published>2016-07-07T13:43:34+04:30</published>
+  
+  <author>
+    <name>پویا گلچیان</name>
+    <uri>http://localhost:4000</uri>
+    <email>pooya.golchian@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;وبلاگ فارسیم رو برپایه جکیل درست کردم. بعد از گذشت پنج سال که وبلاگ خودم رو با وردپرس درست کردم همیشه دنبال این بودم که راه ساده تری برای نوشتن بلاگ و حرف هام پیدا کنم. بهترین راهی که به نظرم رسید فعلا همینه که از شر دیتابیس و هاستینگ های به دردنخور ایران خلاص شم و بسوی گربه هشت پای محبوبم برم.
+از این بعد تجربیات و مقالات مربوط به کامپیوتر رو در اینجا با شما به اشتراک میذارم.
+سایت انگلیسیم هم هست که اون هم همین هدف رو دنبال میکنه.&lt;/p&gt;
+
+&lt;p&gt;ارادتمند شما پویا.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/hello-world/&quot;&gt;سلام دنیا&lt;/a&gt; was originally published by پویا گلچیان at &lt;a href=&quot;http://localhost:4000&quot;&gt;پویا گلچیان&lt;/a&gt; on July 07, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>

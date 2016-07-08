@@ -1,0 +1,51 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}');
+  src: url('#{$fa-font-path}/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
+    url('#{$fa-font-path}/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2'),
+    url('#{$fa-font-path}/fontawesome-webfont.woff?v=#{$fa-version}') format('woff'),
+    url('#{$fa-font-path}/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype'),
+    url('#{$fa-font-path}/fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg');
+//  src: url('#{$fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('#{$fa-font-path}/IRANSansWeb_Bold.woff2') format("woff2"),
+    url('#{$fa-font-path}/IRANSansWeb_Bold.woff') format("woff");
+    font-weight: 700
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('#{$fa-font-path}/IRANSansWeb_Medium.woff2') format("woff2"),
+    url('#{$fa-font-path}/IRANSansWeb_Medium.woff') format("woff");
+    font-weight: 500
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('#{$fa-font-path}/IRANSansWeb_Light.woff2') format("woff2"),
+    url('#{$fa-font-path}/IRANSansWeb_Light.woff') format("woff");
+    font-weight: 300
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('#{$fa-font-path}/IRANSansWeb_UltraLight.woff2') format("woff2"),
+    url('#{$fa-font-path}/IRANSansWeb_UltraLight.woff') format("woff");
+    font-weight: 200
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('#{$fa-font-path}/IRANSansWeb.woff2') format("woff2"),
+    url('#{$fa-font-path}/IRANSansWeb.woff') format("woff");
+    font-weight: 400
+}

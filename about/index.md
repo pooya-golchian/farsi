@@ -1,0 +1,20 @@
+---
+layout: page
+title:  درباه من
+excerpt: "Pooya Golchian about/resume"
+modified: 2014-08-08T19:44:38.564948-04:00
+image:
+  feature: bg3.jpg
+  <!--credit: OpenSource!-->
+  <!--creditlink: -->
+---
+## پویا گلچیان هستم.
+
+* متولد ۱۳۶۹ تهران.
+* کارشناسی ارشد مهندسی کامپیوتر گرایش نرم افزار دانشگاه آزاد کرج.
+
+
+## استخدامم کنید!
+اگر قصد استخدام من را دارید در حال حاضر بصورت پروژه ایی میتونم با شما همکاری داشته باشم.
+
+[^1]: Example: *domain.com/category-name/post-title*
