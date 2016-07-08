@@ -103,6 +103,7 @@ span + .entry-title {
 /* page/post meta content (date, author, etc) */
 
 .entry-meta {
+	direction: rtl;
 	@include span-columns(12);
 	text-transform: uppercase;
 	@include font-size(14);
