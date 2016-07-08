@@ -8,7 +8,7 @@ image:
   <!--credit: OpenSource!-->
   <!--creditlink: -->
 ---
-# وب سایت جدیدم  بر پایه جکیل گیت های
+# وب سایت جدیدم  بر پایه جکیل گیت هاب
 میتونید مثل این وب سایت رو داشته باشید یا من در توسعه این وب سایت کمک کنید [repo](https://github.com/pooya-golchian/pooya-golchian.github.io).
 لینک وب سایت من [url](http://pooyagolchian.ir).
 
