@@ -1,7 +1,7 @@
 ---
 layout: page
 title: پروژه های انجام شده
-excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
+excerpt: "پروژه های انجام شده توسط پویا گلچیان"
 modified: 2016-01-19
 image:
   feature: bg4.jpg

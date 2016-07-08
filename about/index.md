@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  درباه من
-excerpt: "Pooya Golchian about/resume"
+excerpt: "درباره پویا گلچیان"
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
   feature: bg3.jpg
