@@ -5,8 +5,8 @@ locale: fa_IR
 description: مهندس نرم افزار، برنامه نویس، عاشق دنیای متن باز و لینوکس
 logo: site-logo.png
 search: true
-url: http://localhost:4000
-#url: http://pooyagolchian.ir
+#url: http://localhost:4000
+url: http://pooyagolchian.ir
 
 
 # Jekyll configuration
