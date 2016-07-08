@@ -1,18 +1,18 @@
 # Site navigation links
 - title: جستجو
-  url: farsi/search/
+  url: /search/
 
 - title: درباره من
-  url: farsi/about/
+  url: /about/
 
 - title: پروژه ها
-  url: farsi/projects/
+  url: /projects/
 
 - title: مقاله ها
-  url: farsi/articles/
+  url: /articles/
 
 - title: وبلاگ
-  url: farsi/blog/
+  url: /blog/
 
 
 
