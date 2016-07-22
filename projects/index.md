@@ -1,6 +1,6 @@
 ---
 layout: page
-title: پروژه
+title: پروژه های من
 excerpt: "پروژه های انجام شده توسط پویا گلچیان"
 modified: 2016-01-19
 image:
