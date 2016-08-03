@@ -20,7 +20,7 @@
 /* feature image */
 
 .entry-feature-image {
-	margin: 20px 0 0;
+	margin:0;
 	width: 100%;
 	@include media($medium) {
 		margin-top: -75px; /* move up to be overlapped by site logo */

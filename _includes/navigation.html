@@ -1,35 +1,64 @@
-<div class="navigation-wrapper">
-	<nav role="navigation" id="site-nav" class="animated drop">
-	    <ul>
-      {% for link in site.data.navigation %}
-		    {% if link.url contains 'http' %}
-		        {% assign domain = '' %}
-		        {% else %}
-		        {% assign domain = site.url %}
-		    {% endif %}
-		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}{% endif %}>{{ link.title }}</a></li>
-		  {% endfor %}
-	    </ul>
-	</nav>
-</div><!-- /.navigation-wrapper -->
+<header class="centered-navigation" role="banner">
+    <div class="wrap">
+            <a href="{{ site.url }}/" class="mobile-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}"  alt="{{ site.title }} logo" class="Logo image"></a>
+
+        <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu"><i class="fa fa-2x fa-navicon"></i></a>
+        <nav role="navigation">
+            <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+                {% for link in site.data.navigation %}
+                {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = site.url %}
+                {% endif %}
+                <li class="nav-link"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}{% endif %}>{{ link.title }}</a></li>
+                {% endfor %}
+                <li class="logo">
+                    <a href="{{ site.url }}/" class="logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} logo" class="Logo image"></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+
+
+
+
 
 {% include browser-upgrade.html %}
 
-{% if page.image.feature %}<header class="masthead">
-	{% if site.logo != null %}
-		<div class="wrap">
-			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
-		</div>
-	{% endif %}
-</header><!-- /.masthead -->
-{% else %}<header class="masthead">
-	<div class="wrap">
-      {% if site.logo != null %}
-  		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
-      {% endif %}
-      <h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
-		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
-	</div>
-</header><!-- /.masthead -->{% endif %}
+{% if page.image.feature %}
+    {% if site.logo != null %}
 
-<div class="js-menu-screen menu-screen"></div>
+    {% endif %}
+{% else %}<div class="masthead">
+    <div class="wrap">
+        {% if site.logo != null %}
+        {% endif %}
+        <h1 class="site-title"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
+        <h2 class="site-description" itemprop="description">{{ site.description }}</h2>
+    </div>
+</div><!-- /.masthead -->{% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
