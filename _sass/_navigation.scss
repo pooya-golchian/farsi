@@ -1,160 +1,105 @@
 /* ==========================================================================
    Top navigation
    ========================================================================== */
-.centered-navigation {
-  $base-border-radius: 3px !default;
-  $dark-gray: #333 !default;
-  $large-screen: 53.75em !default;
-  $base-font-color: $dark-gray !default;
-  $centered-navigation-padding: 1em;
-  $centered-navigation-logo-height: 2em;
-  $centered-navigation-background: $white;
-  $centered-navigation-color: transparentize($base-font-color, 0.3);
-  $centered-navigation-color-hover: $base-font-color;
-  $centered-navigation-height: 85px;
-  $centered-navigation-item-padding: 1em;
-  $centered-navigation-submenu-padding: 1em;
-  $centered-navigation-submenu-width: 12em;
-  $centered-navigation-item-nudge: 2.2em;
-  $horizontal-bar-mode: $large-screen;
-  background-color: $centered-navigation-background;
-  height: $centered-navigation-height;
-  width: 100%;
-  z-index: 9999;
-  direction:ltr;
-  position: relative;
-  display: block;
 
-  // Mobile view
-
-  .mobile-logo {
-    display: inline;
-    float: left;
-    max-height: $centered-navigation-height;
-
-    img {
-      max-height: $centered-navigation-height;
-    }
-
-    @include media($horizontal-bar-mode) {
-      display: none;
-    }
+.navigation-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  @include clearfix;
+  @include  media($medium) {
+    border-bottom: 1px solid $black;
   }
-
-  .centered-navigation-mobile-menu {
-    color: $centered-navigation-color;
-    display: block;
-    float: right;
-    line-height: 100px;
-    height: $centered-navigation-height;
+  ul {
+    display: inline-block;
+    vertical-align: middle;
     margin: 0;
-    padding-right: $centered-navigation-submenu-padding;
-    text-decoration: none;
-    text-transform: uppercase;
-
-    @include media ($horizontal-bar-mode) {
-      display: none;
-    }
-
-    &:focus,
-    &:hover {
-      color: $centered-navigation-color-hover;
-    }
-  }
-
-  // Nav menu
-
-  .centered-navigation-wrapper {
-    @include outer-container;
-    @include clearfix;
-    position: relative;
-    z-index: 999;
-    direction: rtl;
-
-  }
-
-  ul.centered-navigation-menu {
-    clear: both;
-    display: none;
-    margin: 0 auto;
-    overflow: visible;
     padding: 0;
-    -webkit-transform-style: preserve-3d;
-    // stop webkit flicker
-    width: 100%;
-    z-index: 99999;
-    background-color: $centered-navigation-background;
-
-    &.show {
-      display: block;
-    }
-
-    @include media ($horizontal-bar-mode) {
-      display: block;
-      text-align: center;
-    }
-  }
-
-  // The nav items
-
-  .nav-link:last-child {
-    @include media($horizontal-bar-mode) {
-      margin-right: $centered-navigation-item-nudge;
-    }
-  }
-
-  ul li.nav-link {
-    background: $centered-navigation-background;
-    display: block;
-    line-height: $centered-navigation-height;
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
-    z-index: 9999;
-    padding: 0;
-    margin: 0;
-
-    a {
+    background-color: $white;
+    @include media($medium) {
       color: $black;
-      display: inline-block;
-      outline: none;
-      text-decoration: none;
-      width: 100%;
-
-      &:focus,
-      &:hover {
-        color: $black;
-        background-color: $yellow;
-      }
     }
-
-    @include media($horizontal-bar-mode) {
-      background: transparent;
-      display: inline;
-      line-height: $centered-navigation-height;
-
-      a {
-        padding-right: $centered-navigation-item-padding;
-        padding-left: $centered-navigation-item-padding;
-        width: 100px;
-      }
-    }
+    @include clearfix;
   }
-
-  li.logo {
-    display: none;
-    line-height: 0;
+  li {
+    display: block;
     float: left;
-    text-decoration: none;
-    position: relative;
-
-    @include media($horizontal-bar-mode) {
-      display: inline;
+    list-style: none;
+    text-align: center;
+    @include font-size(24, no);
+    text-transform: uppercase;
+    color: $black;
+    @include media($medium) {
+      @include font-size(16, no);
+    }
+    a:hover {
+      //@include box-shadow($shadow: inset 0 0 1px $black);
+      background-color: $yellow;
+      color: $black;
     }
   }
-
-  .logo img {
-    height: $centered-navigation-height;
+  a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    @include media($medium) {
+      margin-bottom: 0;
+      padding: 15 20px;
+    }
+    color: $black;
+    &:hover {
+      color: $black;
+    }
   }
+}
 
+/*
+   Responsive navigation toggle
+   ========================================================================== */
+
+#site-nav {
+  display: none;
+  z-index: 5;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  @include media($medium) {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+  }
+  &.closed {
+    @include media($medium) {
+      display: block;
+    }
+  }
+  &.opened {
+    display: block;
+    max-height: 100%;
+    li {
+      float: none;
+      @include media($medium) {
+        float: left;
+      }
+    }
+  }
+}
+
+/* display when JavaScript is disabled */
+.no-js #site-nav {
+  display: block;
+}
+
+#nav-toggle {
+  z-index: 20;
+  display: block;
+  vertical-align: top;
+  margin: 0;
+  padding: 6px 20px;
+  height: 30px;
+  @include rounded(0);
+  @include media($medium) {
+    display: none;
+  }
 }
