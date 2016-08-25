@@ -1,38 +1,29 @@
 /*! Plugin options and other jQuery stuff */
 
 // Responsive Nav
-$(window).on("load resize",function(e) {
-  var more = document.getElementById("js-centered-more");
-
-  if ($(more).length > 0) {
-    var windowWidth = $(window).width();
-    var moreLeftSideToPageLeftSide = $(more).offset().left;
-    var moreLeftSideToPageRightSide = windowWidth - moreLeftSideToPageLeftSide;
-
-    if (moreLeftSideToPageRightSide < 330) {
-      $("#js-centered-more .submenu .submenu").removeClass("fly-out-right");
-      $("#js-centered-more .submenu .submenu").addClass("fly-out-left");
-    }
-
-    if (moreLeftSideToPageRightSide > 330) {
-      $("#js-centered-more .submenu .submenu").removeClass("fly-out-left");
-      $("#js-centered-more .submenu .submenu").addClass("fly-out-right");
-    }
-  }
-
-  var menuToggle = $("#js-centered-navigation-mobile-menu").unbind();
-  $("#js-centered-navigation-menu").removeClass("show");
-
-  menuToggle.on("click", function(e) {
-    e.preventDefault();
-    $("#js-centered-navigation-menu").slideToggle(function(){
-      if($("#js-centered-navigation-menu").is(":hidden")) {
-        $("#js-centered-navigation-menu").removeAttr("style");
-      }
-    });
-  });
+var navigation = responsiveNav("#site-nav", { // Selector: The ID of the wrapper
+  animate: true, // Boolean: Use CSS3 transitions, true or false
+  transition: 200, // Integer: Speed of the transition, in milliseconds
+  label: "<i class='fa fa-bars'></i> منو کاربری", // String: Label for the navigation toggle
+  insert: "before", // String: Insert the toggle before or after the navigation
+  customToggle: "", // Selector: Specify the ID of a custom toggle
+  openPos: "relative", // String: Position of the opened nav, relative or static
+  jsClass: "js", // String: 'JS enabled' class which is added to <html> el
+  init: function(){}, // Function: Init callback
+  open: function(){}, // Function: Open callback
+  close: function(){} // Function: Close callback
 });
 
+$('html').click(function() {
+  //Hide the menus if visible
+  if ($(navigation.wrapper).hasClass('opened')) {
+  	navigation.toggle();
+  }
+});
+
+$('#site-nav').click(function(event){
+    event.stopPropagation();
+});
 
 // FitVids options
 $(function() {
