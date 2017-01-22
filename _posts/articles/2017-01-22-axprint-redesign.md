@@ -1,6 +1,6 @@
 ---
 layout: post
-title: طراح مجدد عکس پرینت
+title: طراحی مجدد عکس پرینت
 modified:
 categories: articles
 excerpt: "بعد از گذشت هشت سال بلاخره طراحی مجدد شد"
