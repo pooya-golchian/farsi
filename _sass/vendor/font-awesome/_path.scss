@@ -1,6 +1,6 @@
 /* FONT PATH
  * -------------------------- */
-// fontawesome-webfont icon ===========================================
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('#{$fa-font-path}/fontawesome-webfont.eot?v=#{$fa-version}');
@@ -12,69 +12,4 @@
 //  src: url('#{$fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
   font-weight: normal;
   font-style: normal;
-}
-
-// IRANSansWeb Font ===========================================
-@font-face {
-    font-family: 'IRANSans';
-    src: url('#{$fa-font-path}/IRANSansWeb_Bold.woff2') format("woff2"),
-    url('#{$fa-font-path}/IRANSansWeb_Bold.woff') format("woff");
-    font-weight: 700
-}
-
-@font-face {
-    font-family: 'IRANSans';
-    src: url('#{$fa-font-path}/IRANSansWeb_Medium.woff2') format("woff2"),
-    url('#{$fa-font-path}/IRANSansWeb_Medium.woff') format("woff");
-    font-weight: 500
-}
-
-@font-face {
-    font-family: 'IRANSans';
-    src: url('#{$fa-font-path}/IRANSansWeb_Light.woff2') format("woff2"),
-    url('#{$fa-font-path}/IRANSansWeb_Light.woff') format("woff");
-    font-weight: 300
-}
-
-@font-face {
-    font-family: 'IRANSans';
-    src: url('#{$fa-font-path}/IRANSansWeb_UltraLight.woff2') format("woff2"),
-    url('#{$fa-font-path}/IRANSansWeb_UltraLight.woff') format("woff");
-    font-weight: 200
-}
-
-@font-face {
-    font-family: 'IRANSans';
-    src: url('#{$fa-font-path}/IRANSansWeb.woff2') format("woff2"),
-    url('#{$fa-font-path}/IRANSansWeb.woff') format("woff");
-    font-weight: 400
-}
-// Lalehzar Font ===========================================
-@font-face {
-    font-family: 'Lalezar';
-    font-weight: 400;
-    src: url('#{$fa-font-path}/Lalezar-Regular.woff2') format("woff2")
-}
-
-@font-face {
-    font-family: 'Lalezar';
-    font-weight: 400;
-    src: url('#{$fa-font-path}/Lalezar-Regular.woff') format("woff")
-}
-// Samim Font ===========================================
-@font-face {
-    font-family: 'Samim';
-    src: url('#{$fa-font-path}/Samim.eot');
-    src: url('#{$fa-font-path}/Samim.eot?#iefix') format('embedded-opentype'),
-		 url('#{$fa-font-path}/Samim.woff') format('woff'),
-		 url('#{$fa-font-path}/Samim.ttf') format('truetype');
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'Samim';
-    src: url('#{$fa-font-path}/Samim-Bold.eot');
-    src: url('#{$fa-font-path}/Samim-Bold.eot?#iefix') format('embedded-opentype'),
-		 url('#{$fa-font-path}/Samim-Bold.woff') format('woff'),
-		 url('#{$fa-font-path}/Samim-Bold.ttf') format('truetype');
-    font-weight: bold;
 }
