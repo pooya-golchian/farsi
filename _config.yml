@@ -20,6 +20,7 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-gist
+  - jalalidate
 
 kramdown:
   auto_ids: true
