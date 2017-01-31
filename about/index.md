@@ -17,4 +17,7 @@ image:
 ## استخدامم کنید!
 اگر قصد استخدام من را دارید در حال حاضر بصورت پروژه ایی میتونم با شما همکاری داشته باشم.
 
+<a markdown="0" href="https://t.me/iCoder" class="btn"><i class="fa fa-telegram"></i> در تلگرام با من در تماس باشید </a>
+
+
 [^1]: Example: *domain.com/category-name/post-title*
