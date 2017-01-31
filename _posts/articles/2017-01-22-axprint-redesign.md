@@ -1,7 +1,7 @@
 ---
 layout: post
 title: طراحی مجدد عکس پرینت
-modified:
+modified: 2017-01-22T02:02:07+03:30
 categories: articles
 excerpt: "بعد از گذشت هشت سال بلاخره طراحی مجدد شد"
 tags: [مقاله، عکس پرینت، طراحی مجدد]
