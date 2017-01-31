@@ -10,7 +10,6 @@ url: http://pooyagolchian.ir/farsi
 
 
 # Jekyll configuration
-safe:true
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: rouge
