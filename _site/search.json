@@ -3,7 +3,7 @@
   
     {
       "title"			: "طراحی مجدد عکس پرینت",
-      "link"			: "http://localhost:4000/articles/axprint-redesign/",
+      "link"			: "http://pooyagolchian.ir/farsi/articles/axprint-redesign/",
       "excerpt"		: "بعد از گذشت هشت سال بلاخره طراحی مجدد شد"
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "سلام دنیا",
-      "link"			: "http://localhost:4000/blog/hello-world/",
+      "link"			: "http://pooyagolchian.ir/farsi/blog/hello-world/",
       "excerpt"		: "سلام فارسی من به جهان"
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "پروژه های من",
-      "link"			: "http://localhost:4000/projects/",
+      "link"			: "http://pooyagolchian.ir/farsi/projects/",
       "excerpt"		: "پروژه های انجام شده توسط پویا گلچیان"
     }
   
@@ -43,7 +43,7 @@
   
     ,{
       "title"			: "درباه من",
-      "link"			: "http://localhost:4000/about/",
+      "link"			: "http://pooyagolchian.ir/farsi/about/",
       "excerpt"		: "درباره پویا گلچیان"
     }
   

@@ -2,27 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">پویا گلچیان</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2017-01-31T22:31:15+03:30</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://pooyagolchian.ir/farsi/feed.xml" />
+<link rel="alternate" type="text/html" href="http://pooyagolchian.ir/farsi" />
+<updated>2017-02-06T00:02:37+03:30</updated>
+<id>http://pooyagolchian.ir/farsi/</id>
 <author>
   <name>پویا گلچیان</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://pooyagolchian.ir/farsi/</uri>
   <email>pooya.golchian@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[طراحی مجدد عکس پرینت]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/axprint-redesign/" />
-  <id>http://localhost:4000/articles/axprint-redesign</id>
+  <link rel="alternate" type="text/html" href="http://pooyagolchian.ir/farsi/articles/axprint-redesign/" />
+  <id>http://pooyagolchian.ir/farsi/articles/axprint-redesign</id>
   <updated>2017-01-22 02:02:07 +0330T00:00:00-00:00</updated>
   <published>2017-01-22T02:02:07+03:30</published>
   
   <author>
     <name>پویا گلچیان</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://pooyagolchian.ir/farsi</uri>
     <email>pooya.golchian@gmail.com</email>
   </author>
   <content type="html">
@@ -78,21 +78,21 @@
 
 &lt;p&gt;این پست رو فعلاً همین جا تموم میکنم و ممکنه بعداً آپدیت شه.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/axprint-redesign/&quot;&gt;طراحی مجدد عکس پرینت&lt;/a&gt; was originally published by پویا گلچیان at &lt;a href=&quot;http://localhost:4000&quot;&gt;پویا گلچیان&lt;/a&gt; on January 22, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://pooyagolchian.ir/farsi/articles/axprint-redesign/&quot;&gt;طراحی مجدد عکس پرینت&lt;/a&gt; was originally published by پویا گلچیان at &lt;a href=&quot;http://pooyagolchian.ir/farsi&quot;&gt;پویا گلچیان&lt;/a&gt; on January 22, 2017.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[سلام دنیا]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/hello-world/" />
-  <id>http://localhost:4000/blog/hello-world</id>
+  <link rel="alternate" type="text/html" href="http://pooyagolchian.ir/farsi/blog/hello-world/" />
+  <id>http://pooyagolchian.ir/farsi/blog/hello-world</id>
   <updated>2016-07-07T00:00:00-00:00</updated>
   <published>2016-07-07T13:43:34+04:30</published>
   
   <author>
     <name>پویا گلچیان</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://pooyagolchian.ir/farsi</uri>
     <email>pooya.golchian@gmail.com</email>
   </author>
   <content type="html">
@@ -105,7 +105,7 @@
 
 &lt;p&gt;پویا گلچیان.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/hello-world/&quot;&gt;سلام دنیا&lt;/a&gt; was originally published by پویا گلچیان at &lt;a href=&quot;http://localhost:4000&quot;&gt;پویا گلچیان&lt;/a&gt; on July 07, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://pooyagolchian.ir/farsi/blog/hello-world/&quot;&gt;سلام دنیا&lt;/a&gt; was originally published by پویا گلچیان at &lt;a href=&quot;http://pooyagolchian.ir/farsi&quot;&gt;پویا گلچیان&lt;/a&gt; on July 07, 2016.&lt;/p&gt;
   </content>
 </entry>
 
