@@ -4,7 +4,7 @@ title: پروژه های من
 excerpt: "پروژه های انجام شده توسط پویا گلچیان"
 modified: 2016-01-19
 image:
-  feature: bg4.jpg
+  <!--feature: bg4.jpg-->
   <!--credit: OpenSource!-->
   <!--creditlink: -->
 ---
