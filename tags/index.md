@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tag Index
-excerpt: "An archive of posts sorted by tag."
+title: برچسب‌ها
+excerpt: "بایگانی وب‌سایت بر اساس برچسب‌ها"
 search_omit: true
 ---
 
