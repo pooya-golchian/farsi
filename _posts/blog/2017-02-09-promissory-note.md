@@ -4,7 +4,7 @@ title: سفته و کار به هر شرطی
 modified:
 categories: blog
 excerpt: همه چیز درباره سفته کاری
-tags: [سفته‌ ‌, قانون‌کار , کار با سفته]
+tags: [سفته‌ ‌, قانون‌کار , وبلاگ]
 comments: true
 share: true
 author: pooya_golchian
