@@ -59,7 +59,7 @@
   overflow: hidden;
   @include clearfix;
   &.inline li {
-    float: left;
+    float: right;
     @include font-size(14);
     line-height: 2.5;
   }
