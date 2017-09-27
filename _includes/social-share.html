@@ -1,10 +1,15 @@
 <span class="social-share-twitter">
-  <a href="https://twitter.com/intent/tweet?hashtags={{ page.tags | join: ',' | remove: ' ' }}&amp;text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ site.url }}{{ page.url }}{% if author.twitter %}&amp;via={{ author.twitter }}{% endif %}" title="Share on Twitter" itemprop="Twitter"><i class="fa fa-twitter-square"></i> توییت کنید </a>
+  <a href="https://twitter.com/intent/tweet?hashtags={{ page.tags | join: ',' | remove: ' ' }}&amp;text={{ page.title | escape | replace:' ','%20' }}&amp;url={{ site.url }}{{ page.url }}{% if author.twitter %}&amp;via={{ author.twitter }}{% endif %}" title="اشتراک گذاری در توییتر" itemprop="Twitter"><i class="fa fa-twitter-square"></i> توییت کنید </a>
 </span>
 <span class="social-share-facebook">
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" itemprop="Facebook"><i class="fa fa-facebook-square"></i> لایک کنید </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" title="اشتراک‌ گذاری در فیسبوک" itemprop="Facebook"><i class="fa fa-facebook-square"></i> لایک کنید </a>
 </span>
 <span class="social-share-googleplus">
-  <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus" itemprop="GooglePlus"><i class="fa fa-google-plus-square"></i> پلاس دهید</a>
+  <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="اشتراک گذاری در گوگل پلاس" itemprop="GooglePlus"><i class="fa fa-google-plus-square"></i> پلاس دهید</a>
 </span>
+<span class="social-share-telegram">
+  <a href="https://telegram.me/share/url?url={{ site.url }}{{ page.url }}" title="اشتراک گذاری در تلگرام" itemprop="ُTelegram"><i class="fa fa-telegram"></i> تلگرام</a>
+</span>
+
+
 <!-- /.social-share -->
