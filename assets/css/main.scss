@@ -10,7 +10,7 @@ sitemap: false
  *
  * gmail: pooya.golchian@gmail.com
 */
-
+@import "type";
 @import "variables";
 
 /*
@@ -26,7 +26,6 @@ sitemap: false
 /*
    Global
    ========================================================================== */
-@import "type";
 @import "mixins";
 @import "reset";
 @import "base";
