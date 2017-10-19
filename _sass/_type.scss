@@ -58,3 +58,34 @@
 		 url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 		 url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
 }
+
+
+
+@font-face {
+    font-family: 'Samim';
+    src: url('../fonts/Samim.eot');
+    src: url('../fonts/Samim.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Samim.woff') format('woff'),
+		 url('../fonts/Samim.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Samim';
+    src: url('../fonts/Samim-Bold.eot');
+    src: url('../fonts/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Samim-Bold.woff') format('woff'),
+		 url('../fonts/Samim-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+
+
+
+@font-face {
+    font-family: 'Lalezar';
+    font-weight: 400;
+    src: url('../fonts/Lalezar-Regular.eot');
+    src: url('../fonts/Lalezar-Regular.woff2') format("woff2"),
+    url('../fonts/Lalezar-Regular.woff') format("woff"),
+    url('../fonts/Lalezar-Regular') format('truetype');
+}

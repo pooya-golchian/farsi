@@ -13,32 +13,3 @@
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-    font-family: 'Samim';
-    src: url('#{$fa-font-path}/Samim.eot');
-    src: url('#{$fa-font-path}/Samim.eot?#iefix') format('embedded-opentype'),
-		 url('#{$fa-font-path}/Samim.woff') format('woff'),
-		 url('#{$fa-font-path}/Samim.ttf') format('truetype');
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'Samim';
-    src: url('#{$fa-font-path}/Samim-Bold.eot');
-    src: url('#{$fa-font-path}/Samim-Bold.eot?#iefix') format('embedded-opentype'),
-		 url('#{$fa-font-path}/Samim-Bold.woff') format('woff'),
-		 url('#{$fa-font-path}/Samim-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-
-
-
-
-@font-face {
-    font-family: 'Lalezar';
-    font-weight: 400;
-    src: url('#{$fa-font-path}/Lalezar-Regular.eot');
-    src: url('#{$fa-font-path}/Lalezar-Regular.woff2') format("woff2"),
-    url('#{$fa-font-path}/Lalezar-Regular.woff') format("woff"),
-    url('#{$fa-font-path}/Lalezar-Regular') format('truetype');
-}
