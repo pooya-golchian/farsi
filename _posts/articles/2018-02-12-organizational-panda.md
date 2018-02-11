@@ -5,6 +5,8 @@ modified:
 categories: articles
 excerpt: 'چگونه یک پاندای سازمانی باشیم'
 tags: [کار و زندگی]
+comments: true
+share: true
 image:
   feature:
 date: 2018-02-12T00:00:40+03:30
