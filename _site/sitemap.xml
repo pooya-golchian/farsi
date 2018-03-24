@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/articles/dream-job/</loc>
+<lastmod>2018-02-17T00:18:23+03:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/articles/organizational-panda/</loc>
+<lastmod>2018-02-12T00:00:40+03:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/blog/promissory-note/</loc>
 <lastmod>2017-02-09T02:34:42+03:30</lastmod>
 </url>
