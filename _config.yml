@@ -5,8 +5,8 @@ locale: fa_IR
 description: مهندس نرم افزار
 logo: site-logo.png
 search: true
-# url: http://localhost:4000
-url: http://pooyagolchian.ir/farsi
+url: http://localhost:4000
+# url: http://pooyagolchian.ir/farsi
 
 
 # Jekyll configuration
@@ -67,6 +67,7 @@ owner:
   weibo: #userid
   behence: pooya-golchian
   telegram: icoder
+  dribbble: pooyagolchian
   google:
     plus: #username
     analytics: UA-114457345-1
