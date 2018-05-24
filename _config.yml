@@ -5,8 +5,8 @@ locale: fa_IR
 description: مهندس نرم افزار
 logo: site-logo.png
 search: true
-# url: http://localhost:4000
-url: http://pooyagolchian.ir/farsi
+url: http://localhost:4000
+# url: http://pooyagolchian.ir/farsi
 
 
 # Jekyll configuration
