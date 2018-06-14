@@ -26,7 +26,5 @@ image:
 ## اطلاعات تماس
 
 <a markdown="0" href="https://t.me/iCoder" target="_blank" class="btn"><i class="fa fa-telegram"></i> در تلگرام با من در تماس باشید </a>
+<a markdown="0" href="http://pooyagolchian.ir/file/cv.pdf" target="_blank" class="btn"><i class="fa fa-eye"></i> مشاهده رزومه </a>
 
-
-Gmail : pooya.golchian <br/>
-Telegram: @icoder

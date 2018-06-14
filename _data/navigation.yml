@@ -2,9 +2,9 @@
 - title: انگلیسی
   url: http://pooyagolchian.ir
 
-- title: جستجو
-  url: /search/
-
+#  title: جستجو
+#   url: /search/
+-
 - title: درباره‌من
   url: /about/
 
